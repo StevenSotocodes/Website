@@ -1,0 +1,138 @@
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+/* Base styles */
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+/* Layout container */
+.container {
+  margin: auto;
+  width: 600px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border-radius: 50%;
+  max-width: 150px;
+  border: 3px solid #003049;
+}
+
+/* Horizontal rule */
+hr {
+  border: 1px solid black;
+  margin: 40px 0;
+}
+
+/* Header and Footer */
+header,
+footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Navigation links */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d62828;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f77f00;
+}
+
+/* Link styling */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+  text-decoration: underline;
+}
+
+/* About section */
+#about {
+  text-align: center;
+}
+
+#about ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+/* Background section */
+#background {
+  text-align: left;
+}
+
+/* Portfolio section */
+#portfolio {
+  text-align: center;
+}
+
+.portfolio-item {
+  margin-bottom: 40px;
+}
+
+.portfolio-item p {
+  text-align: left;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+/* Contact section */
+#contact {
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.contact-list li {
+  margin: 10px 0;
+}
